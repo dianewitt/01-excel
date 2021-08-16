@@ -34,5 +34,3 @@ Modifying and analyzing the data of 4,000 past Kickstarter projects to uncover s
 
 **Limitations**
 - Missing demographic and marketing data.
-
-What are some other possible tables and/or graphs that we could create?
