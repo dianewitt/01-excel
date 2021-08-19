@@ -9,6 +9,15 @@ Getting funded on Kickstarter requires meeting or exceeding the project's initia
 **Project**
 
 Modifying and analyzing the data of 4,000 past Kickstarter projects to uncover some market trends.
+- Conditional formatting of state (i.e. campaign status)
+- Formula for percent funded
+- Formula for average donation per each backer
+- Split columns into category and sub-category
+- Pivot table to count successful, failed or cancelled campaigns by category
+- Stacked column pivot chart by category, filtered by country
+- Pivot table to count successful, failed or cancelled campaigns by subcategory
+- Stacked column pivot chart by subcategory, filtered by country and parent-category
+- Formula for converting Unix timestamps to normal dates
 
 **Analysis**
 
