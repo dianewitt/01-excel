@@ -10,19 +10,36 @@ Getting funded on Kickstarter requires meeting or exceeding the project's initia
 
 Modifying and analyzing the data of 4,000 past Kickstarter projects to discover some market trends.
 
-- Conditional formatting of state (i.e. campaign status) ![](image/README/1629551131456.png)
+- Conditional formatting of state (i.e. campaign status) 
 
-- Formula for percent funded ```=[@pledged]/[@goal]```
+    ![](image/README/1629551131456.png)
 
-- Formula for average donation per each backer ```=IFERROR([@pledged]/[@[backers_count]],"N/A")```
+- Formula for percent funded 
 
-- Split columns into category and sub-category ```=LEFT([@[Category and Sub-Category]],FIND("/",[@[Category and Sub-Category]])-1)``` (found here: https://www.howtoexcel.org/tutorials/split-text-by-delimiter/
+        =[@pledged]/[@goal]
 
-- Formula for converting Unix timestamps to normal dates ```=(((J62/60)/60)/24)+DATE(1970,1,1)``` ![](Images/worksheet.png) 
+- Formula for average donation per each backer 
 
-- Pivot table to count successful, failed or cancelled campaigns by category ![](Images/p_table1.png)
+        =IFERROR([@pledged]/[@[backers_count]],"N/A")
 
-- Stacked column pivot chart by category, filtered by country ![](Images/category_country.png)
+        
+- Split columns into category and sub-category (*found here:* https://www.howtoexcel.org/tutorials/split-text-by-delimiter)
+
+        =LEFT([@[Category and Sub-Category]],FIND("/",[@[Category and Sub-Category]])-1)    
+
+- Formula for converting Unix timestamps to normal dates 
+
+        =(((J62/60)/60)/24)+DATE(1970,1,1)
+        
+    ![](Images/worksheet.png) 
+
+- Pivot table to count successful, failed or cancelled campaigns by category 
+
+    ![](Images/p_table1.png)
+
+- Stacked column pivot chart by category, filtered by country 
+
+    ![](Images/category_country.png)
 
 - Pivot table to count successful, failed or cancelled campaigns by subcategory
 
