@@ -12,7 +12,7 @@ Modifying and analyzing the data of 4,000 past Kickstarter projects to discover 
 
 - **Conditional formatting** of state (i.e. campaign status) 
 
-    ![](image/README/1629551131456.png)
+    ![](Images/cond_format.png)
 
 - Formula for **percent funded**
 
